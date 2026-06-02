@@ -169,6 +169,7 @@
     background: var(--fondo);
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
   }
 
   nav {
@@ -836,7 +837,7 @@
 </nav>
 
 <!-- HERO -->
-<div class="hero">
+<div class="hero" style="overflow:hidden;">
   <div class="hero-content">
     <div class="hero-tag">Disponible ahora · Envío inmediato</div>
     <h1>Mounjaro<br><em>KwikPen</em></h1>
@@ -883,7 +884,7 @@
         width="320"
         height="220"
         loading="eager"
-        onerror="this.style.display='none'; this.parentElement.innerHTML += '<div style=\'text-align:center;padding:2rem;\'><svg width=\'80\' height=\'80\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'#0B6B4A\' stroke-width=\'1\'><rect x=\'3\' y=\'3\' width=\'18\' height=\'18\' rx=\'3\'/><path d=\'M3 9h18M9 21V9\'/></svg></div>'"
+        onerror="this.style.display='none'"
       />
     </div>
 
